@@ -71,6 +71,12 @@ header h2 {
  	background-size:cover;
 }
 
+#design {
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(255, 193, 7, 0.9)), url(img/design.png);
+ 	background-size:cover;
+ 	background-position: bottom;
+}
+
 
 footer {
 	margin:0;
