@@ -22,7 +22,6 @@ header h1 {
 }
 
 .header_intro {
- 	padding-top:90px;
  	padding-bottom:50px;
 }
 
@@ -30,14 +29,17 @@ header .name {
 	color:#ffc107;
 }
 
-header h2 {
+h2 {
 	font-weight: 400;
 }
 
 .wrap {
+	padding-top:90px;
 	width:900px;
 	margin: 0 auto;
 }
+
+
 
 .featured {
 	display:flex;
@@ -109,6 +111,23 @@ footer a {
 
 footer a:hover {
 	color:#d4d4d4;
+}
+
+.back-wrap  {
+	text-decoration: none;
+	position: relative;
+}
+
+.back-wrap span {
+	font-size: 120%;
+	color:white;
+	position: absolute;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+main img {
+	width:100%;
 }
 
 @media only screen and (max-width: 1000px) {
